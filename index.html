@@ -4,12 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Mixtrology App</title>
   </head>
+
   <body>
-    <div class="app-container">
-      <div class="app-header"></div>
+    <div class="device">
+      <!-- header -->
+      <div class="header">
+        <div>
+          <p class="dim-text">Hello, Xhandra</p>
+          <p>Let´s get some Coffee</p>
+        </div>
+        <div>
+          <img class="user-avatar" src="https://i.pravatar.cc/150?img=24" />
+        </div>
+      </div>
+      <!-- Banner -->
+      <img src="images/banner.png" class="banner" alt="banner" />
+
+      <!-- Coffeelist -->
+      <div>
+        <h3>Beverages</h3>
+        <ul class="coffee-list">
+          <li class="coffee-item">
+            <img src="images/coffee1.png" />
+            <div>
+              <p><strong>Pink Capuccino</strong></p>
+              <p class="tags">Hot, Pink, Happy</p>
+              <p class="price">$ 5.75</p>
+            </div>
+            <div class="buttons">
+              <i id="like-btn" class="fa-solid fa-heart"></i>
+              <i id="add-btn" class="fa-solid fa-square-plus"></i>
+            </div>
+          </li>
+          <li class="coffee-item">
+            <img src="images/coffee2.png" />
+            <div>
+              <p><strong>Pink Capuccino</strong></p>
+              <p class="tags">Hot, Pink, Happy</p>
+              <p class="price">$ 5.75</p>
+            </div>
+            <div class="buttons">
+              <i id="like-btn" class="fa-solid fa-heart"></i>
+              <i id="add-btn" class="fa-solid fa-square-plus"></i>
+            </div>
+          </li>
+          <li class="coffee-item">
+            <img src="images/coffee3.png" />
+            <div>
+              <p><strong>Pink Capuccino</strong></p>
+              <p class="tags">Hot, Pink, Happy</p>
+              <p class="price">$ 5.75</p>
+            </div>
+            <div class="buttons">
+              <i id="like-btn" class="fa-solid fa-heart"></i>
+              <i id="add-btn" class="fa-solid fa-square-plus"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
     <script src="script.js" type="module"></script>
   </body>

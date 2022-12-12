@@ -1,21 +1,80 @@
-html, body {
+html, body,p {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
-    background-image: linear-gradient(45deg, #EEF8FF, #F1FFED);
+    background: #E8EBF3;
     display: flex;
     height: 100vh;
     width: 100%;
     align-items: center;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
 }
-.app-container{
+.device{
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    width: 375px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+    width: 315px;
+    height: 667px;
     border-radius: 40px;
+    padding: 30px;
 }
-.app-header{
-    background-imge: 
+.header{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-avatar {
+    border-radius:50%;
+    width: 50px;
+}
+.dim-text {
+    color: darkgray;
+    font-size: 90%;
+}
+.banner {
+    border-radius: 8px;
+}
+.coffee-list {
+    padding: 0;
+}
+.coffee-item {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(255, 245, 248);
+    border-radius: 8px;
+    padding: 8px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.coffee-item img {
+    width: 60px;
+    border-radius:8px;
+}
+.tags {
+    font-size: 12px;
+    color: darkcyan;
+}
+.price{
+    font-size: 15px;
+    font-weight: 700;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;    
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#like-btn {
+    font-size: 18px;
+    color: lightsteelblue;
+}
+#add-btn {
+    font-size: 30px;
 }
